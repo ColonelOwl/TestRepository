@@ -10,6 +10,10 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
+            Fish fish = new Fish() { Name = "Karp", Price = 20d, Weight = 15
+            };
+
+            Console.WriteLine(fish);
         }
     }
 }
